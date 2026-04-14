@@ -104,12 +104,23 @@ footer{
    th,td{
     padding: 5px;
    }
-     body{
-      background-size: contain;
-     }
+     
+      
 
-   }
+    body {
+        background-image: url('image.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }}
+
+
+@media(max-width: 480px){
+    body {
+        background-size: cover;
+        background-position: center;
+    }
 }
-
+   
 
  
