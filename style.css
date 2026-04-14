@@ -104,6 +104,11 @@ footer{
    th,td{
     padding: 5px;
    }
+     body{
+      background-size: contain;
+     }
+
+   }
 }
 
 
