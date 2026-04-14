@@ -1,0 +1,108 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+    background-color: rgb(15, 152, 152);
+    background-image:url("i.jpg") ;
+    backdrop-filter: blur(10px);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100vh;
+    margin: 0;
+}  
+ header{
+    text-align: center;
+    text-decoration: 5px underline;
+   background-color:  #2298d7;
+   padding:10px 0;
+   margin: 0;
+ } 
+ ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    margin: 0;
+    background-color: 50px rgb(66, 96, 214) ;
+   
+ } 
+ nav ul,a{
+    background-color: rgb(66, 96, 214);
+    color:#eaeaf4;
+    text-decoration: 3px underline ;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: sticky;
+     top: 0; 
+     }
+  a:hover{
+    color: rgba(186, 76, 237, 0.731);
+  }
+  a:active{
+    color: rgb(161, 243, 243);
+  }
+  table ,tr,th,td{
+    border: 3px solid black;
+    margin: 30px 30%;
+    padding: 5px;
+   
+  }
+  th{
+    background-color: #17749f;
+    font-size: larger;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  tr:hover{
+    background-color: rgb(227, 230, 233);
+  }
+  form{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 53, 53);
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  }
+  input,textarea{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+     }
+img{   
+    border-radius:60px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+footer{
+    background-color: #2298d7;
+    text-align: center;
+    font-size: larger;
+}
+@media(max-width:768px){
+    nav ul,a{
+        text-align:center ;
+        flex-direction: column;
+    } 
+   form{
+    width: 50%;
+   }
+   table{
+   font-size: 12px;
+   }
+   th,td{
+    padding: 5px;
+   }
+}
+
+
+ 
