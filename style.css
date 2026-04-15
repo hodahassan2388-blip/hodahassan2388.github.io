@@ -1,7 +1,6 @@
 html,body{
   margin: 0;
   padding: 0;
-  height:100% ;
 }
 body{
      background-image:url("i.jpg");
@@ -12,6 +11,7 @@ body{
     background-position: center;
     min-height: 100vh;
     margin: 0;
+    flex-direction: column;
 }  
  header{
     text-align: center;
@@ -92,6 +92,7 @@ footer{
     background-color: #2298d7;
     text-align: center;
     font-size: larger;
+    margin-top: auto;
    }
 @media(max-width:768px){
     nav ul,a{
@@ -113,13 +114,13 @@ footer{
      }
    
     body {
-       display:flex;
-       flex-direction:column;
+      display: flex;
+      flex-direction: column;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        height:auto;
+        height: auto;
     }
    footer {
    width: 100%;
@@ -130,7 +131,7 @@ footer{
     main{
   flex: 1;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
  }
