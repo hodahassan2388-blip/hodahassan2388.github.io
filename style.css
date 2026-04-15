@@ -119,6 +119,11 @@ footer{
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
+  footer {
+    font-size: 20px;
+    padding: 20px 10px;
+
+    }
   }
   
  
