@@ -119,6 +119,7 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
+        height:auto;
     }
    footer {
    width: 100%;
