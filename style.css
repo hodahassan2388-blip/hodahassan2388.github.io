@@ -84,7 +84,7 @@ body{
      }     
   img{                                         
     border-radius:60px;
-    display: block;
+    display: flex;
     margin: auto;
     width: 50%;
 }
@@ -92,6 +92,7 @@ footer{
     background-color: #2298d7;
     text-align: center;
     font-size: larger;
+    margin-top: 0;
     margin-top: 0;
    }
 @media(max-width:768px){
@@ -111,7 +112,7 @@ footer{
    }
      img{
       width: 80%;
-      display:flex;
+      display: flex;
      }
    
     body {
